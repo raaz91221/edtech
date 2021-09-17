@@ -1,0 +1,76 @@
+* {
+  font-family: "Baloo Bhai" !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.my-sidebar .sidebar-item  {
+  padding:20px 5px;
+  margin:0 auto !important;
+}
+.my-sidebar .sidebar-item .sidebar-icon {
+  color: #FFFFFF !important;
+  margin: 0 auto;
+  justify-content: center !important;
+}
+.sidebar-close-btn {
+  margin-top: -20px;
+  color:'white';
+}
+.content-area {
+
+  margin-right: 20px;
+  margin-top:20px;
+  margin-left:120px;
+
+
+}
+@media (min-width:1200px) {
+  .my-sidebar .sidebar-item  {
+   
+    margin:0 auto !important;
+  }
+}
+@media (max-width:600px) {
+  .content-area {
+
+    margin-right:5px;
+    margin-top:50px;
+    margin-left:5px; 
+  
+
+  }
+
+  .my-sidebar .sidebar-item  {
+    padding:10px 5px;
+    margin:0 auto !important;
+  }
+
+}
